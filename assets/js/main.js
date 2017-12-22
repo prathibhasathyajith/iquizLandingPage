@@ -69,6 +69,13 @@ $(document).ready(function () {
         $(".icon-box").unbind("click");
 
     });
+    
+    $("#closeBut").click(function (){
+        $("#modalOverly").fadeOut();
+        $("#modalView").fadeOut();
+    });
+        
+    
 
 });
 
@@ -112,7 +119,21 @@ function openApp() {
 }
 
 function viewBut(buttonNumber) {
-    alert(buttonNumber);
+//    alert(buttonNumber);
+ 
+//    $(".insideButton").css({
+//        "width":"100%",
+//        "height":"100%",
+//        "margin":"0",
+//        "left":"0",
+//        "top":"0",
+//        "border-radius":"30px",
+//        "position":"absolute"
+//    })
+    
+    $("#modalOverly").fadeIn();
+    $("#modalView").fadeIn();
+    
 }
 
 function sort(length) {
