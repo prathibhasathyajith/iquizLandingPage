@@ -38,7 +38,7 @@ html {
     width: 0;
     height: 0;
     background-color: #353535;
-    z-index: 1;
+    z-index: 3;
     margin: 0px 0 0 47px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -182,6 +182,7 @@ html {
     top: 0;
     padding: 20px;
     display: none;
+    z-index: 1;
 }
 #modalView1,
 #modalView2,
@@ -197,6 +198,7 @@ html {
     padding: 20px;
     box-shadow: 0 0 15px 0px rgba(108, 146, 177, 0.78);
     display: none;
+    z-index: 2;
 }
 .modalContent {
     font-family: Raleway;
