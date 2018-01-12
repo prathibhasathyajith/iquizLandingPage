@@ -29,7 +29,7 @@ $(document).ready(function () {
                 "height": "541px",
                 "padding": "10px",
                 "border-radius": "38px",
-                "cursor": "auto"
+                "cursor": "url(/assets/image/clicker3.png),auto"
             });
             $(".icon-circle").css({
                 "width": "230px",
@@ -48,7 +48,7 @@ $(document).ready(function () {
                 $(".icon-name").css({
                     "position": "relative",
                     "margin-top": "130px",
-                    "cursor": "pointer"
+                    "cursor": "url(/assets/image/pay-per-click3.png),auto"
                 });
 
                 $(".icon-name").attr("onclick", "openApp()");
@@ -69,12 +69,15 @@ $(document).ready(function () {
         $(".icon-box").unbind("click");
 
     });
-    
-    $("#closeBut").click(function (){
+
+    $(".closeBut").click(function () {
         $("#modalOverly").fadeOut();
-        $("#modalView").fadeOut();
+        $("#modalView1").fadeOut();
+        $("#modalView2").fadeOut();
+        $("#modalView3").fadeOut();
+        $("#modalView4").fadeOut();
     });
-        
+
 });
 
 function openApp() {
@@ -84,7 +87,7 @@ function openApp() {
     });
     $(".icon-name").removeAttr("onclick");
     $(".icon-name").css({
-        "cursor": "auto",
+        "cursor": "url(/assets/image/clicker3.png),auto",
         "margin": "-75px 0 0 0"
     });
     $(".imageClassName").attr("width", "50");
@@ -94,44 +97,73 @@ function openApp() {
             "opacity": "1"
         });
         $(".content-1:nth-child(2) >.insideButton").attr("onclick", "viewBut(1)");
+        $(".content-1:nth-child(2) >.insideButton").css("cursor", "url(/assets/image/pay-per-click3.png),auto");
     }, 200);
-    setTimeout(function () {
-        $(".content-1:nth-child(3)").css({
-            "opacity": "1"
-        });
-        $(".content-1:nth-child(3)>.insideButton").attr("onclick", "viewBut(2)");
-    }, 400);
+    cursor:
+        setTimeout(function () {
+            $(".content-1:nth-child(3)").css({
+                "opacity": "1"
+            });
+            $(".content-1:nth-child(3)>.insideButton").attr("onclick", "viewBut(2)");
+            $(".content-1:nth-child(3)>.insideButton").css("cursor", "url(/assets/image/pay-per-click3.png),auto");
+        }, 400);
     setTimeout(function () {
         $(".content-1:nth-child(4)").css({
             "opacity": "1"
         });
         $(".content-1:nth-child(4)>.insideButton").attr("onclick", "viewBut(3)");
+        $(".content-1:nth-child(4)>.insideButton").css("cursor", "url(/assets/image/pay-per-click3.png),auto");
     }, 600);
     setTimeout(function () {
         $(".content-1:nth-child(5)").css({
             "opacity": "1"
         });
         $(".content-1:nth-child(5)>.insideButton").attr("onclick", "viewBut(4)");
+        $(".content-1:nth-child(5) >.insideButton").css("cursor", "url(/assets/image/pay-per-click3.png),auto");
     }, 800);
 
 }
 
 function viewBut(buttonNumber) {
-//    alert(buttonNumber);
- 
-//    $(".insideButton").css({
-//        "width":"100%",
-//        "height":"100%",
-//        "margin":"0",
-//        "left":"0",
-//        "top":"0",
-//        "border-radius":"30px",
-//        "position":"absolute"
-//    })
-    
+    //    alert(buttonNumber);
+
+    //    $(".insideButton").css({
+    //        "width":"100%",
+    //        "height":"100%",
+    //        "margin":"0",
+    //        "left":"0",
+    //        "top":"0",
+    //        "border-radius":"30px",
+    //        "position":"absolute"
+    //    })
     $("#modalOverly").fadeIn();
-    $("#modalView").fadeIn();
-    
+    switch (buttonNumber) {
+        case 1:
+            $("#modalView1").fadeIn();
+            break;
+        case 2:
+            $("#modalView2").fadeIn();
+            break;
+        case 3:
+            $("#modalView3").fadeIn();
+            break;
+        case 4:
+            $("#modalView4").fadeIn();
+            break;
+        default:
+            break;
+
+    }
+
+
+    //    if (buttonNumber = )
+    //
+    //    //        $("#modalOverly").fadeIn();
+    //        $("#modalView1").fadeIn();
+    //    $("#modalView2").fadeIn();
+    //    $("#modalView3").fadeIn();
+    //    $("#modalView4").fadeIn();
+
 }
 
 function sort(length) {
