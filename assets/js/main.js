@@ -125,17 +125,6 @@ function openApp() {
 }
 
 function viewBut(buttonNumber) {
-    //    alert(buttonNumber);
-
-    //    $(".insideButton").css({
-    //        "width":"100%",
-    //        "height":"100%",
-    //        "margin":"0",
-    //        "left":"0",
-    //        "top":"0",
-    //        "border-radius":"30px",
-    //        "position":"absolute"
-    //    })
     $("#modalOverly").fadeIn();
     switch (buttonNumber) {
         case 1:
@@ -154,16 +143,6 @@ function viewBut(buttonNumber) {
             break;
 
     }
-
-
-    //    if (buttonNumber = )
-    //
-    //    //        $("#modalOverly").fadeIn();
-    //        $("#modalView1").fadeIn();
-    //    $("#modalView2").fadeIn();
-    //    $("#modalView3").fadeIn();
-    //    $("#modalView4").fadeIn();
-
 }
 
 function sort(length) {
