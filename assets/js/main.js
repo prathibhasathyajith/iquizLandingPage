@@ -75,8 +75,6 @@ $(document).ready(function () {
         $("#modalView").fadeOut();
     });
         
-    
-
 });
 
 function openApp() {
@@ -95,25 +93,25 @@ function openApp() {
         $(".content-1:nth-child(2)").css({
             "opacity": "1"
         });
-        $(".content-1:nth-child(2)").attr("onclick", "viewBut(1)");
+        $(".content-1:nth-child(2) >.insideButton").attr("onclick", "viewBut(1)");
     }, 200);
     setTimeout(function () {
         $(".content-1:nth-child(3)").css({
             "opacity": "1"
         });
-        $(".content-1:nth-child(3)").attr("onclick", "viewBut(2)");
+        $(".content-1:nth-child(3)>.insideButton").attr("onclick", "viewBut(2)");
     }, 400);
     setTimeout(function () {
         $(".content-1:nth-child(4)").css({
             "opacity": "1"
         });
-        $(".content-1:nth-child(4)").attr("onclick", "viewBut(3)");
+        $(".content-1:nth-child(4)>.insideButton").attr("onclick", "viewBut(3)");
     }, 600);
     setTimeout(function () {
         $(".content-1:nth-child(5)").css({
             "opacity": "1"
         });
-        $(".content-1:nth-child(5)").attr("onclick", "viewBut(4)");
+        $(".content-1:nth-child(5)>.insideButton").attr("onclick", "viewBut(4)");
     }, 800);
 
 }
