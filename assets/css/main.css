@@ -15,13 +15,13 @@ html {
 */
 }
 .main-box {
-    cursor:  url(../image/clicker3.png), auto;
+    cursor: url(../image/clicker3.png), auto;
     transition: 0.6s;
     margin: 27vh auto;
     text-align: center;
 }
 .icon-box {
-    cursor: url(../image/pay-per-click3.png),auto;
+    cursor: url(../image/pay-per-click3.png), auto;
     transition: 0.6s;
     width: 190px;
     height: 190px;
@@ -63,6 +63,7 @@ html {
 .icon-name {
     transition: 0.5s;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .imageClass {
     transition: 0.5s;
@@ -131,7 +132,7 @@ html {
     font-family: pacifico;
     font-size: 12px;
     color: #405fff;
-/*    cursor: url(../image/pay-per-click3.png),auto;*/
+    /*    cursor: url(../image/pay-per-click3.png),auto;*/
     transition: 0.2s;
 }
 .insideButton:hover {
@@ -165,7 +166,7 @@ html {
 }
 .fa-search:hover {
     color: black;
-    cursor: url(../image/pay-per-click3.png),auto;
+    cursor: url(../image/pay-per-click3.png), auto;
 }
 .secondClick {
     position: relative;
@@ -225,4 +226,22 @@ html {
 }
 .closeBut:hover {
     box-shadow: inset 0 0 20px 10px #a294d2;
+}
+
+/*///////////////////////////////////////////////*/
+
+.details-left {
+    display: none;
+    float: left;
+    width: 35%;
+    transition: 0.5s;
+    margin-top: 30px;
+}
+.details-right {
+    display: none;
+    float: right;
+    width: 15%;
+    margin-right: 42%;
+    transition: 0.5s;
+    margin-top: 30px;
 }

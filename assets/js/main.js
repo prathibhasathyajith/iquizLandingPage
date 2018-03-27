@@ -122,6 +122,16 @@ function openApp() {
         $(".content-1:nth-child(5) >.insideButton").css("cursor", "url(/assets/image/pay-per-click3.png),auto");
     }, 800);
 
+    // side deatils
+    setTimeout(function () {
+        $(".details-left").fadeIn(1500);
+        $(".details-right").fadeIn(1500);
+    },1000);
+
+    setTimeout(function () {
+        $(".details-right").css({"margin-right": "0","width": "35%"});
+    }, 1000);
+    
 }
 
 function viewBut(buttonNumber) {
