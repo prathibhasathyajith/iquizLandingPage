@@ -1,23 +1,12 @@
 @import "fonts.css";
-
-/*
 body,
 html {
     padding: 0;
     margin: 0;
-    background: url(../image/background_blur2.jpg);
+    background: url(https://images.pexels.com/photos/35626/beach-shoreline-coast-summer.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-position: center;
     cursor: url(../image/clicker3.png), auto;
-    
-    -webkit-filter: blur(50px);
-    -moz-filter: blur(50px);
-    -o-filter: blur(50px);
-    -ms-filter: blur(50px);
-    filter: blur(50px);
-
 }
-*/
-
 .main-box {
     cursor: url(../image/clicker3.png), auto;
     transition: 0.6s;
@@ -33,7 +22,8 @@ html {
     background-color: #353535;
     margin: 0 auto;
     padding: 15px;
-    box-shadow: 0 0 20px 6px #978fbf;
+/*    box-shadow: 0 0 20px 6px #978fbf;*/
+    position: relative;
 }
 .icon-top-box {
     transition: 0.6s;
@@ -237,9 +227,9 @@ html {
 .details-left {
     display: none;
     float: left;
-    width: 35%;
+    width: 42%;
     transition: 0.5s;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .details-right {
     display: none;
@@ -261,13 +251,13 @@ html {
     width: 100%;
     height: auto;
     padding-bottom: 1px;
-    background-color: antiquewhite;
+    background-color: #e7e7f9;
     border-radius: 10px;
     box-shadow: 0 0 6px 1px #bdbdbdb3;
 }
 .web-toolbar {
     width: 100%;
-    background-color: #cecabf;
+    background-color: #353535;
     height: 25px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -276,13 +266,14 @@ html {
 .web-header {
     width: 100%;
     padding: 10px;
-    background-color: #feffff;
+    background-color: #eaeaea;
     height: 40px;
     text-align: right;
+    border-bottom: 5px solid white;
 }
 .web-slider {
     width: 100%;
-    background: url(https://quotefbcovers.com/images/quotes/full/pretty-girl-eyes_quote_fb_covers_12a6f44e.jpg);
+    background: url(https://images.pexels.com/photos/12628/pexels-photo-12628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     /* background-color: blue; */
     background-position: center;
     background-size: cover;
@@ -292,7 +283,7 @@ html {
     width: auto;
     margin: 10px;
     padding: 10px;
-    background-color: #FFC107;
+    background-color: #abacec;
     height: auto;
     text-align: center;
     border-radius: 5px;
@@ -328,4 +319,7 @@ html {
     margin: 6px;
     height: 90px;
     border-radius: 5px;
+    font-family: Raleway;
+    font-weight: 800;
+
 }

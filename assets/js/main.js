@@ -22,7 +22,7 @@ $(document).ready(function () {
 
         setTimeout(function () {
             $(".main-box").css({
-                "margin": "9vh auto"
+                "margin": "6vh auto"
             });
             $(".icon-box").css({
                 "width": "250px",
