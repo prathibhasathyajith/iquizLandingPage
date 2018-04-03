@@ -229,7 +229,7 @@ html {
     float: left;
     width: 42%;
     transition: 0.5s;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .details-right {
     display: none;
@@ -277,7 +277,7 @@ html {
     /* background-color: blue; */
     background-position: center;
     background-size: cover;
-    height: 138px;
+    height: 160px;
 }
 .web-content {
     width: auto;

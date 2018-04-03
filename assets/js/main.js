@@ -124,8 +124,8 @@ function openApp() {
 
     // side deatils
     setTimeout(function () {
-        $(".details-left").fadeIn(1500);
-        $(".web-main-content").fadeIn(1500);
+        $(".details-left").fadeIn(1000);
+        $(".web-main-content").fadeIn(1000);
         $(".details-right").fadeIn(1500);
     },1000);
 
