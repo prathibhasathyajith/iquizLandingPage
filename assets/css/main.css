@@ -19,11 +19,11 @@ html {
     width: 190px;
     height: 190px;
     border-radius: 47px;
-    background-color: #353535;
+    background-color: #e8e8e8;
     margin: 0 auto;
     padding: 15px;
-/*    box-shadow: 0 0 20px 6px #978fbf;*/
-    box-shadow: -20px 0px 11px 0px #50505070;
+    /*    box-shadow: 0 0 20px 6px #978fbf;*/
+    box-shadow: -20px 0px 11px 0px #0a0a0a99;
     position: relative;
 }
 .icon-top-box {
@@ -67,6 +67,7 @@ html {
     margin: 65px 0 0 0;
 }
 .clickhere {
+    color: wheat;
     font-family: Raleway;
     font-weight: 400;
     font-size: 11px;
@@ -254,12 +255,12 @@ html {
     padding-bottom: 1px;
     background-color: #e7e7f9;
     border-radius: 10px;
-/*    box-shadow: 0 0 6px 1px #bdbdbdb3;*/
+    /*    box-shadow: 0 0 6px 1px #bdbdbdb3;*/
     box-shadow: 0px 1px 8px 6px #00000069;
 }
 .web-toolbar {
     width: 100%;
-    background-color: #353535;
+    background-color: #ffffff;
     height: 25px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -285,7 +286,7 @@ html {
     width: auto;
     margin: 10px;
     padding: 10px;
-    background-color: #abacec;
+    background-color: #ffffff;
     height: auto;
     text-align: center;
     border-radius: 5px;
@@ -316,12 +317,11 @@ html {
 .cont1 {
     width: 47%;
     float: left;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 5px;
     margin: 6px;
     height: 90px;
     border-radius: 5px;
     font-family: Raleway;
     font-weight: 800;
-
 }
