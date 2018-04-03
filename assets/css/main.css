@@ -3,7 +3,7 @@ body,
 html {
     padding: 0;
     margin: 0;
-    background: url(https://images.pexels.com/photos/35626/beach-shoreline-coast-summer.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background: url(https://images.unsplash.com/photo-1496469888073-80de7e952517?ixlib=rb-0.3.5&s=2805d82c953c916c11c2c44f41bca1d1&auto=format&fit=crop&w=1489&q=80);
     background-position: center;
     cursor: url(../image/clicker3.png), auto;
 }
@@ -23,6 +23,7 @@ html {
     margin: 0 auto;
     padding: 15px;
 /*    box-shadow: 0 0 20px 6px #978fbf;*/
+    box-shadow: -20px 0px 11px 0px #50505070;
     position: relative;
 }
 .icon-top-box {
@@ -253,7 +254,8 @@ html {
     padding-bottom: 1px;
     background-color: #e7e7f9;
     border-radius: 10px;
-    box-shadow: 0 0 6px 1px #bdbdbdb3;
+/*    box-shadow: 0 0 6px 1px #bdbdbdb3;*/
+    box-shadow: 0px 1px 8px 6px #00000069;
 }
 .web-toolbar {
     width: 100%;
