@@ -6,6 +6,17 @@ $(document).ready(function () {
         //        $(".icon-circle").addClass("gradiantColor1");
     });
 
+    $(window).resize(function () {
+        var window_height = $(window).height();
+        var mainbox_height = $(".main-box").height();
+        var sub = (window_height - mainbox_height) / 2;
+        var center_val = (sub * 100) / window_height - 3;
+
+        $(".main-box").css({
+            "margin": center_val + "vh auto"
+        });
+    });
+
     $(".icon-box").click(function (e) {
 
         $(".icon-circle").css({
@@ -22,7 +33,7 @@ $(document).ready(function () {
 
         setTimeout(function () {
             $(".main-box").css({
-                "margin": "6vh auto"
+                "margin":  "6vh auto"
             });
             $(".icon-box").css({
                 "width": "250px",
@@ -127,12 +138,15 @@ function openApp() {
         $(".details-left").fadeIn(1000);
         $(".web-main-content").fadeIn(1000);
         $(".details-right").fadeIn(10);
-    },1000);
+    }, 1000);
 
     setTimeout(function () {
-        $(".details-right").css({"margin-right": "0","width": "35%"});
+        $(".details-right").css({
+            "margin-right": "0",
+            "width": "35%"
+        });
     }, 1000);
-    
+
 }
 
 function viewBut(buttonNumber) {
