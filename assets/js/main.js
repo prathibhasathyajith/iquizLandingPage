@@ -6,6 +6,7 @@ $(document).ready(function () {
         //        $(".icon-circle").addClass("gradiantColor1");
     });
 
+    //center function
     $(window).resize(function () {
         var window_height = $(window).height();
         var mainbox_height = $(".main-box").height();
