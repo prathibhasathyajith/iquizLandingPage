@@ -3,7 +3,7 @@ body,
 html {
     padding: 0;
     margin: 0;
-    background: url(https://pixabay.com/get/eb3db40f28fd003ecd1f4d02e54b439ee56ae3d01bb5104192f9c67a/background-2850091.jpg);
+    background: url(../image/back.jpg);
     background-position: center;
     background-size: cover;
     cursor: url(../image/clicker3.png), auto;
@@ -333,7 +333,19 @@ html {
     line-height: 27px;
     font-family: raleway;
     font-weight: bold;
+    margin: 50px 0 0 0;
 }
-.store-icons{}
-.store-icons > appstore{}
-.store-icons > googleplay{}
+.store-icons{
+    margin: 10px auto;
+}
+.store-icons > .appstore > img{
+    float: left;
+    margin-right: 10px
+}
+.store-icons > .googleplay > img{
+    float: left;
+}
+.text-mob > h3 > b{
+    background: white;
+    padding: 0 5px;
+}
