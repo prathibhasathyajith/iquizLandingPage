@@ -33,7 +33,7 @@ $(document).ready(function () {
 
         setTimeout(function () {
             $(".main-box").css({
-                "margin":  "6vh auto"
+                "margin": "6vh auto"
             });
             $(".icon-box").css({
                 "width": "250px",
@@ -46,6 +46,9 @@ $(document).ready(function () {
                 "width": "230px",
                 "height": "521px",
                 "border-radius": "30px",
+                "background-image": "url(/assets/image/back.jpg)",
+                "background-position": "center",
+                "background-size": "cover",
                 "background-color": "white",
                 "margin": "0"
             });
@@ -102,6 +105,16 @@ function openApp() {
         "margin": "-75px 0 0 0"
     });
     $(".imageClassName").attr("width", "50");
+    $(".icon-circle").css({
+        "width": "230px",
+        "height": "521px",
+        "border-radius": "30px",
+        "background-image": "",
+        "background-position": "",
+        "background-size": "",
+        "background-color": "white",
+        "margin": "0"
+    });
 
     setTimeout(function () {
         $(".content-1:nth-child(2)").css({

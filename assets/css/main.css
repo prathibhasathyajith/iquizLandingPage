@@ -107,9 +107,21 @@ html {
     margin: 11px;
     border-radius: 20px;
     box-shadow: 0px 3px 9px 0px rgba(174, 218, 241, 0.7);
+    background-position: center;
+    background-size: cover;
+   
 }
 .content-1:first-child {
     margin-top: 40%;
+}
+.content-1:nth-child(2){
+     background-image: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/175585/1160/772/m1/fpnw/wm1/flat-design-office-desk-04-preview-.jpg?1409681671&s=945d6960080cc8cfa42f3daea6d97d5d);
+}.content-1:nth-child(3){
+     background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/640dca46463165.585530c450de8.jpg);
+}.content-1:nth-child(4){
+     background-image: url(http://gdj.graphicdesignjunction.com/wp-content/uploads/2013/04/flat-design-responsive-icons.jpg);
+}.content-1:nth-child(5){
+     background-image: url(https://image.freepik.com/free-vector/cityscape-background-in-flat-design_23-2147593275.jpg);
 }
 .insideContent {
     transition: 0.4s;
@@ -117,7 +129,7 @@ html {
     height: 30%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    background-color: #7877b9;
+    background-color: rgba(0, 0, 0, 0.48);
 }
 .insideButton {
     width: 40px;
