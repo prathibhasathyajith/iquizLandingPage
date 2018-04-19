@@ -230,9 +230,9 @@ html {
 .details-left {
     display: none;
     float: left;
-    width: 42%;
+    width: 34%;
     transition: 0.5s;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .details-right {
     display: none;
@@ -335,6 +335,15 @@ html {
     font-weight: bold;
     margin: 50px 0 0 0;
 }
+.text-web{
+    text-align: right;
+    color: white;
+    font-size: 24px;
+    line-height: 27px;
+    font-family: raleway;
+    font-weight: bold;
+    margin: 50px 0 0 0;
+}
 .store-icons{
     margin: 10px auto;
 }
@@ -346,6 +355,10 @@ html {
     float: left;
 }
 .text-mob > h3 > b{
+    background: white;
+    padding: 0 5px;
+}
+.text-web > h3 > b{
     background: white;
     padding: 0 5px;
 }
