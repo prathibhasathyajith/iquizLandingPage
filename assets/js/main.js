@@ -41,7 +41,7 @@ $(document).ready(function () {
             $(".icon-top-box").css({
                 "width": "135px",
                 "height": "17px",
-                "background-color": "#e8e8e8"
+                "background-color": "#2b2d29"
             });
 
             setTimeout(function () {

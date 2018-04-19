@@ -3,8 +3,9 @@ body,
 html {
     padding: 0;
     margin: 0;
-    background: url(https://images.unsplash.com/photo-1496469888073-80de7e952517?ixlib=rb-0.3.5&s=2805d82c953c916c11c2c44f41bca1d1&auto=format&fit=crop&w=1489&q=80);
+    background: url(https://pixabay.com/get/eb3db40f28fd003ecd1f4d02e54b439ee56ae3d01bb5104192f9c67a/background-2850091.jpg);
     background-position: center;
+    background-size: cover;
     cursor: url(../image/clicker3.png), auto;
 }
 .main-box {
@@ -19,11 +20,11 @@ html {
     width: 190px;
     height: 190px;
     border-radius: 47px;
-    background-color: #e8e8e8;
+    background-color: #2b2d29;
     margin: 0 auto;
     padding: 15px;
-    /*    box-shadow: 0 0 20px 6px #978fbf;*/
-    box-shadow: -20px 0px 11px 0px #0a0a0a99;
+    /* box-shadow: 0 0 20px 6px #978fbf; */
+    box-shadow: 0px 0px 20px 4px #0a0a0a99;
     position: relative;
 }
 .icon-top-box {
@@ -32,7 +33,7 @@ html {
     position: absolute;
     width: 0;
     height: 0;
-    background-color: #353535;
+    background-color: #2b2d29;
     z-index: 3;
     margin: 0px 0 0 47px;
     border-bottom-left-radius: 15px;
@@ -67,7 +68,7 @@ html {
     margin: 65px 0 0 0;
 }
 .clickhere {
-    color: wheat;
+    color: #2b2d29;
     font-family: Raleway;
     font-weight: 400;
     font-size: 11px;
@@ -325,3 +326,14 @@ html {
     font-family: Raleway;
     font-weight: 800;
 }
+.text-mob{
+    text-align: left;
+    color: white;
+    font-size: 24px;
+    line-height: 27px;
+    font-family: raleway;
+    font-weight: bold;
+}
+.store-icons{}
+.store-icons > appstore{}
+.store-icons > googleplay{}
