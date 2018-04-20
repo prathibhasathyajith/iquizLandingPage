@@ -3,8 +3,9 @@ body,
 html {
     padding: 0;
     margin: 0;
-    background: url(https://images.pexels.com/photos/35626/beach-shoreline-coast-summer.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background: url(../image/back.jpg);
     background-position: center;
+    background-size: cover;
     cursor: url(../image/clicker3.png), auto;
 }
 .main-box {
@@ -19,10 +20,11 @@ html {
     width: 190px;
     height: 190px;
     border-radius: 47px;
-    background-color: #353535;
+    background-color: #2b2d29;
     margin: 0 auto;
     padding: 15px;
-/*    box-shadow: 0 0 20px 6px #978fbf;*/
+    /* box-shadow: 0 0 20px 6px #978fbf; */
+    box-shadow: 0px 0px 20px 4px #0a0a0a99;
     position: relative;
 }
 .icon-top-box {
@@ -31,7 +33,7 @@ html {
     position: absolute;
     width: 0;
     height: 0;
-    background-color: #353535;
+    background-color: #2b2d29;
     z-index: 3;
     margin: 0px 0 0 47px;
     border-bottom-left-radius: 15px;
@@ -66,6 +68,7 @@ html {
     margin: 65px 0 0 0;
 }
 .clickhere {
+    color: #2b2d29;
     font-family: Raleway;
     font-weight: 400;
     font-size: 11px;
@@ -104,9 +107,23 @@ html {
     margin: 11px;
     border-radius: 20px;
     box-shadow: 0px 3px 9px 0px rgba(174, 218, 241, 0.7);
+    background-position: center;
+    background-size: cover;
 }
 .content-1:first-child {
     margin-top: 40%;
+}
+.content-1:nth-child(2) {
+    background-image: url(https://images.pexels.com/photos/981781/pexels-photo-981781.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.content-1:nth-child(3) {
+    background-image: url(https://images.pexels.com/photos/845242/pexels-photo-845242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.content-1:nth-child(4) {
+    background-image: url(https://images.pexels.com/photos/953213/pexels-photo-953213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.content-1:nth-child(5) {
+    background-image: url(https://images.pexels.com/photos/945253/pexels-photo-945253.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 .insideContent {
     transition: 0.4s;
@@ -114,7 +131,7 @@ html {
     height: 30%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    background-color: #7877b9;
+    background-color: rgba(0, 0, 0, 0.48);
 }
 .insideButton {
     width: 40px;
@@ -227,9 +244,9 @@ html {
 .details-left {
     display: none;
     float: left;
-    width: 42%;
+    width: 34%;
     transition: 0.5s;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .details-right {
     display: none;
@@ -253,11 +270,12 @@ html {
     padding-bottom: 1px;
     background-color: #e7e7f9;
     border-radius: 10px;
-    box-shadow: 0 0 6px 1px #bdbdbdb3;
+    /*    box-shadow: 0 0 6px 1px #bdbdbdb3;*/
+    box-shadow: 0px 1px 8px 6px #00000069;
 }
 .web-toolbar {
     width: 100%;
-    background-color: #353535;
+    background-color: #ffffff;
     height: 25px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -277,13 +295,13 @@ html {
     /* background-color: blue; */
     background-position: center;
     background-size: cover;
-    height: 138px;
+    height: 160px;
 }
 .web-content {
     width: auto;
     margin: 10px;
     padding: 10px;
-    background-color: #abacec;
+    background-color: #ffffff;
     height: auto;
     text-align: center;
     border-radius: 5px;
@@ -314,12 +332,47 @@ html {
 .cont1 {
     width: 47%;
     float: left;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 5px;
     margin: 6px;
     height: 90px;
     border-radius: 5px;
     font-family: Raleway;
     font-weight: 800;
-
+}
+.text-mob {
+    text-align: left;
+    color: white;
+    font-size: 24px;
+    line-height: 27px;
+    font-family: raleway;
+    font-weight: bold;
+    margin: 50px 0 0 0;
+}
+.text-web {
+    text-align: right;
+    color: white;
+    font-size: 24px;
+    line-height: 27px;
+    font-family: raleway;
+    font-weight: bold;
+    margin: 50px 0 0 0;
+}
+.store-icons {
+    margin: 10px auto;
+}
+.store-icons > .appstore > img {
+    float: left;
+    margin-right: 10px
+}
+.store-icons > .googleplay > img {
+    float: left;
+}
+.text-mob > h3 > b {
+    background: white;
+    padding: 0 5px;
+}
+.text-web > h3 > b {
+    background: white;
+    padding: 0 5px;
 }
