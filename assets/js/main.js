@@ -18,7 +18,18 @@ $(document).ready(function () {
         });
     });
 
+    // color code gen
+    function makeid() {
+        var text = "#";
+        var possible = "0123456789ABCDEF";
 
+        for (var i = 0; i < 6; i++)
+            text += possible.charAt(Math.floor(Math.random() * possible.length));
+        return text;
+    }
+
+    
+    
 
     $(".icon-box").click(function (e) {
 
@@ -101,6 +112,7 @@ function openApp() {
         "background-image": "url(/assets/image/backblur.jpg)"
     });
 
+    
     //icon color change
     $(".imageClassName").attr("src", "assets/image/icon3.1.svg");
 
@@ -149,20 +161,20 @@ function openApp() {
     setTimeout(function () {
         $(".details-left").show(0);
         $(".web-main-content").fadeIn(1500);
-        $(".details-right").fadeIn(1000);
+        $(".details-right").fadeIn(500);
     }, 1000);
     setTimeout(function () {
         $(".details-left > .text-web > .line1").show(300);
     }, 1000);
     setTimeout(function () {
-        $(".details-left > .text-web > .line2").show(300);
-    }, 1200);
+        $(".details-left > .text-web > .line2").show(600);
+    }, 1000);
     setTimeout(function () {
-        $(".details-left > .text-web > .line3").show(300);
-    }, 1400);
+        $(".details-left > .text-web > .line3").show(900);
+    }, 1000);
     setTimeout(function () {
-        $(".details-left > .text-web > .line4").show(300);
-    }, 1600);
+        $(".details-left > .text-web > .line4").show(1200);
+    }, 1000);
 
     setTimeout(function () {
         $(".details-right").css({
