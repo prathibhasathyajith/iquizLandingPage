@@ -17,6 +17,18 @@ $(document).ready(function () {
             "margin": center_val + "vh auto"
         });
     });
+    
+    function loadz(){
+        var window_height = $(window).height();
+        var mainbox_height = 541;
+        var sub = (window_height - mainbox_height) / 2;
+        var center_val = (sub * 100) / window_height -2;
+
+//        $(".main-box").css({
+//            "margin": center_val + "vh auto"
+//        });
+        return center_val + "vh auto";
+    }
 
     // color code gen
     function makeid() {
@@ -28,11 +40,8 @@ $(document).ready(function () {
         return text;
     }
 
-    
-    
-
     $(".icon-box").click(function (e) {
-
+        
         $(".icon-circle").css({
             "margin": "0px",
             "background-color": "white"
@@ -44,10 +53,12 @@ $(document).ready(function () {
         $(".clickhere").css({
             "display": "none"
         });
+        
+        var ss = loadz();
 
         setTimeout(function () {
             $(".main-box").css({
-                "margin": "6vh auto"
+                "margin": loadz()
             });
             $(".icon-box").css({
                 "width": "250px",
@@ -90,6 +101,7 @@ $(document).ready(function () {
             });
 
         }, 500);
+        
 
         //disable on click
         $(".icon-box").unbind("click");
@@ -117,9 +129,7 @@ function openApp() {
     $(".imageClassName").attr("src", "assets/image/icon3.1.svg");
 
     $(".secondClick").css("display", "none");
-    $(".searchBar").css({
-        "display": "block"
-    });
+    $(".searchBar").fadeIn(1000);
     $(".icon-name").removeAttr("onclick");
     $(".icon-name").css({
         "cursor": "url(/assets/image/clicker3.png),auto",
