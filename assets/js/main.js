@@ -18,6 +18,8 @@ $(document).ready(function () {
         });
     });
 
+
+
     $(".icon-box").click(function (e) {
 
         $(".icon-circle").css({
@@ -94,9 +96,14 @@ $(document).ready(function () {
 });
 
 function openApp() {
+
     $(".icon-circle").css({
         "background-image": "url(/assets/image/backblur.jpg)"
     });
+
+    //icon color change
+    $(".imageClassName").attr("src", "assets/image/icon3.1.svg");
+
     $(".secondClick").css("display", "none");
     $(".searchBar").css({
         "display": "block"
@@ -142,8 +149,20 @@ function openApp() {
     setTimeout(function () {
         $(".details-left").show(0);
         $(".web-main-content").fadeIn(1500);
-        $(".details-right").fadeIn(1500);
+        $(".details-right").fadeIn(1000);
     }, 1000);
+    setTimeout(function () {
+        $(".details-left > .text-web > .line1").show(300);
+    }, 1000);
+    setTimeout(function () {
+        $(".details-left > .text-web > .line2").show(300);
+    }, 1200);
+    setTimeout(function () {
+        $(".details-left > .text-web > .line3").show(300);
+    }, 1400);
+    setTimeout(function () {
+        $(".details-left > .text-web > .line4").show(300);
+    }, 1600);
 
     setTimeout(function () {
         $(".details-right").css({

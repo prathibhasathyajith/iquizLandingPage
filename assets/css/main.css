@@ -108,7 +108,7 @@ html {
     background-color: #abacec;
     margin: 11px;
     border-radius: 20px;
-/*    box-shadow: 0px 3px 9px 0px rgba(174, 218, 241, 0.7);*/
+    /*    box-shadow: 0px 3px 9px 0px rgba(174, 218, 241, 0.7);*/
     box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.65);
     background-position: center;
     background-size: cover;
@@ -117,16 +117,20 @@ html {
     margin-top: 40%;
 }
 .content-1:nth-child(2) {
-    background-image: url(https://images.pexels.com/photos/981781/pexels-photo-981781.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-color: rgb(100, 116, 188);
+/*    background-image: url(https://images.pexels.com/photos/981781/pexels-photo-981781.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
 }
 .content-1:nth-child(3) {
-    background-image: url(https://images.pexels.com/photos/845242/pexels-photo-845242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-color: rgb(196, 146, 126);
+/*    background-image: url(https://images.pexels.com/photos/845242/pexels-photo-845242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
 }
 .content-1:nth-child(4) {
-    background-image: url(https://images.pexels.com/photos/953213/pexels-photo-953213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-color: rgb(204, 203, 210);
+/*    background-image: url(https://images.pexels.com/photos/953213/pexels-photo-953213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
 }
 .content-1:nth-child(5) {
-    background-image: url(https://images.pexels.com/photos/945253/pexels-photo-945253.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-color: rgb(54, 57, 54);
+/*    background-image: url(https://images.pexels.com/photos/945253/pexels-photo-945253.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
 }
 .insideContent {
     transition: 0.4s;
@@ -360,6 +364,25 @@ html {
     font-family: raleway;
     font-weight: bold;
     margin: 50px 0 0 0;
+}
+.line {
+    padding: 5px;
+}
+.line1 {
+    background-color: rgb(100, 116, 188, 0.8);
+    display: none;
+}
+.line2 {
+    background-color: rgb(196, 146, 126, 1);
+    display: none;
+}
+.line3 {
+    background-color: rgb(204, 203, 210, 0.8);
+    display: none;
+}
+.line4 {
+    background-color: rgb(54, 57, 54,1);
+    display: none;
 }
 .store-icons {
     margin: 10px auto;
